@@ -1,0 +1,18 @@
+﻿<Window x:Class="SentryMissingBreadcrumbPoc.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SentryMissingBreadcrumbPoc"
+        mc:Ignorable="d" FontSize="24"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <Button Click="Add_Debug" Content="Add Debug Log"/>
+            <Button Click="Add_Info" Content="Add Info Log"/>
+            <Button Click="Add_Error" Content="Add Error Log"/>
+            <Button Click="Throw_Task" Content="Throw Exception in Task.Run"/>
+            <Button Click="Throw" Content="Throw Exception"/>
+        </StackPanel>
+    </Grid>
+</Window>
